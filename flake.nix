@@ -19,7 +19,7 @@
 
     devShells."x86_64-linux".default = pkgs.mkShell {
       packages = [
-	pkgs.python3
+        pkgs.python3
       ];
     };
 
